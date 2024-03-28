@@ -1,0 +1,41 @@
+main > h1 {
+    font-size: 3.5em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0.75em;
+}
+
+main > p {
+    margin-top: 0;
+}
+
+main > img {
+    height: 25dvh;
+    width: auto;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    border: 2em;
+    
+    border-radius: 1em;
+    color: var(--green);
+    padding: 0.3em;
+    translate: 0em 4em 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.cat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3em;
+    border-radius: 1em;
+    border: 2em
+}

@@ -1,0 +1,99 @@
+
+
+main > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+
+main > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+main > section {
+    background-color: var(--tomato);
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+
+}
+
+.email {
+    text-decoration: none;
+    color: var(--dark-grey);
+    padding: 1em;
+    background-color: var(--coral);
+    border-radius: 2em;
+}
+
+.lkin {
+    text-decoration: none;
+    color: var(--dark-grey);
+    padding: 1em;
+    background-color: var(--coral);
+    border-radius: 2em;
+}
+
+.gthub {
+    text-decoration: none;
+    color: var(--dark-grey);
+    padding: 1em;
+    background-color: var(--coral);
+    border-radius: 2em;
+}
+
+.mail {
+    background-color: white;
+    border-radius: 0.2em;
+    width: 14dvw;
+    margin-top: 1dvh;
+    margin-left: 3dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    max-width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.githublogo {
+    width: 14dvw;
+    margin-bottom: 1dvh;
+    margin-left: 1dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.linkedin {
+    width: 14dvw;
+    margin-bottom: 1dvh;
+    margin-left: 1dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main > img {
+    width: 20em;
+    object-fit: cover;
+    border-radius: 1em;
+}
