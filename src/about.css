@@ -19,10 +19,9 @@ main > img {
 }
 
 .photo {
-    border: 2em;
+    
     
     border-radius: 1em;
-    color: var(--green);
     padding: 0.3em;
     translate: 0em 4em 0em;
     display: flex;
@@ -31,11 +30,24 @@ main > img {
     object-fit: cover;
 }
 
-.cat {
-    display: flex;
+
+
+
+main > p {
     justify-content: center;
     align-items: center;
-    padding: 0.3em;
-    border-radius: 1em;
-    border: 2em
+    flex-direction: row;
+    display: flex;
+}
+
+.skillset {
+    width: auto;
+    height: 25dvh;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: var(--darker-blue);
+    
 }

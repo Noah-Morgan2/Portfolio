@@ -1,35 +1,34 @@
 * {
     margin: 0;
-    --cerulean-blue: #4EA5D9;
-    --coral: #2A4494;
-    --green: #4CAF50;
-    --light-grey: #6B80BD;
-    --dark-grey: #d3d3d3;
+    --dark-blue: #242582;
+    --dark-purple: #553d67;
+    --salmon: #f64c72;
+    --grey: #99738e;
+    --darker-blue: #2f2fa2;
     --tomato: #FF6347;
 
-    font-family:
+    
+    font-family: "Sofia Sans", serif
 }
 
 header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--coral);
+    background-color: var(--darker-blue);
     width: 100dvw;
     height: 10dvh;
     color: var(--dark-grey);
     font-size: 0.75em;
     margin-right: 2em;
-    outline-width: 1dvh;
-    outline-color: #292929;
-    outline-style: double;
+    
     
 }
 
 header > h1 {
     padding: 0.75em;
     font-size: large;
-    
+    color: var(--salmon);
 }
 
 
@@ -39,7 +38,7 @@ header > h1 {
 
 nav > a {
     text-decoration: none;
-    color: var(--dark-grey);
+    color: white;
     text-align: center;
     padding: 0.3em;
     background-color: var(--cerulean-blue);
@@ -85,10 +84,10 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--light-grey);
+    background-color: var(--darker-blue);
     
-    background-color: var(--cerulean-blue);
-    color: #292929;
+    background-color: var();
+    color: white;
     
     
 }
@@ -100,10 +99,10 @@ main > * {
 main > a {
     text-decoration: none;
     padding: 1em;
-    background-color: var(--tomato);
+    background-color: var(--salmon);
     border-radius: 0.5em;
     color: var(--dark-grey);
-    box-shadow: 0.3em 0.3em var(--coral);
+    
     justify-content: center;
     align-items: center;
     
@@ -116,37 +115,40 @@ main > img {
     align-items: center;
     justify-content: center;
     height: 25dvh;
+    box-shadow: 25px -15px var(--salmon);
+    border-radius: 1em;
+   
+    padding: 0.3em;
 }
 
 .email {
     justify-content: center;
     align-items: center;
     display: flex;
-    
+
 } 
  
+nav > a:hover {
+    animation: bounce 1.75s;
+    color: var(--tomato);
+    
+}
 
-
-
-
-
-
-
-
+a:hover {
+    animation: bounce 1.75s infinite linear;
+    color: var(--dark-purple);
+}
 
 footer {
-    height: 5dvh;
+    height: 5vh;
     width: 100dvw;
-    background-color: var(--coral);
+    background-color: var(--darker-blue);
     display: flex;
-    text-align: end;
     align-items: flex-end;
     flex-direction: column;
-    color: var(--dark-grey);
-    outline-width: 1dvh;
-    outline-color: black;
-    outline-style: double;
+    color: white;
+    
 }
 footer > h6 {
-    margin-right: 2em;
+    padding: 1em;
 }
