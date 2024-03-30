@@ -6,6 +6,8 @@ main > h1 {
     margin: 0.75em;
 }
 
+
+
 .photo {
     border-radius: 1em;
     padding: 0.3em;
@@ -23,32 +25,48 @@ main > p {
     display: flex;
 }
 
+main > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .skillset {
-    width: auto;
-    height: 25dvh;
+   max-width: 35dvw;
+    max-height: 40dvh;
     object-fit: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     box-shadow: var(--darker-blue);
+
     
 }
 
-@media screen and (min-width: 600px) {
-    .skillset {
-        display: block;
+
+
+
+@media screen and (min-width:600px) {
+    main > div {
+        display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
         
     }
-
-   
+    main > article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 50dvw;
     }
 
-    
+    .skillset {
+        max-width: 20dvw;
+        max-height: 25dvh;
+    }
+}  
 
 
-}
