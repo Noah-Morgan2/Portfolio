@@ -21,7 +21,7 @@ The target audience for the project and website is any future employers. I hope 
 This project has used html and css to create and style the website. Github has been used to store everything and netlify has been used to publish the information stored in github. For the wireframes I used Figma and for the sitemap, Draw.io was used.
 
 ## Sitemap
-<p alig="center">
+<p align="center">
     <img src="docs/sitemap1.png" height="450>
     </p>
 
