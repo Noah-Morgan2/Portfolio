@@ -139,6 +139,10 @@ a:hover {
     color: var(--dark-purple);
 }
 
+div:hover {
+    animation: pulse 1s;
+}
+
 footer {
     height: 5vh;
     width: 100dvw;
