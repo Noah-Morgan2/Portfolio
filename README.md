@@ -16,6 +16,7 @@ The target audience for the project and website is any future employers. I hope 
 [Click Here](https://github.com/Noah-Morgan2/Portfolio)
 
 ### Presentaion Video
+[Click Here](https://youtu.be/fX2LxpWEi28)
 
 ## Tech Stack
 This project has used html and css to create and style the website. Github has been used to store everything and netlify has been used to publish the information stored in github. For the wireframes I used Figma and for the sitemap, Draw.io was used. For animations, Animate.css was used
