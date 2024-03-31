@@ -20,10 +20,11 @@ The target audience for the project and website is any future employers. I hope 
 ## Tech Stack
 This project has used html and css to create and style the website. Github has been used to store everything and netlify has been used to publish the information stored in github. For the wireframes I used Figma and for the sitemap, Draw.io was used. For animations, Animate.css was used
 
+
+
+
 ## Sitemap
-<p alig="center">
-    <img src="docs/sitemap1.png" height="450>
-    </p>
+![Click Here](docs/sitemap1.png)
 
 there are arrows connecting to each box, but due to the transparent background you'll be unable to see them with a dark background
 
