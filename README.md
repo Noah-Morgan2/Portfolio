@@ -74,7 +74,7 @@ The purpose behind these wireframes is not to provide an in-depth display of the
 
 # Design
 The thought process behind the design of the website went through a lot of trial and error and the color sceme wasnt final until the end 
-![Color Palette](<docs/Screenshots/color palette.png.png>)
+![Color Palette](<docs/Screenshots/color palette.png>)
 
 animations were used throughout the website as a way to show my skills and to also give an exciting feel to the site. I used Animate.css for the animations, which we had touched on in one of my previous lessons.
 [Click Here](https://animate.style)
